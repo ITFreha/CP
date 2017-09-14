@@ -1,6 +1,27 @@
+/*mob*/
+@media (min-width: 0px){
+	#menu-left {
+		position: fixed;
+		top: 50px;
+		right: -15px;
+	}
+	.affix {
+		top: 50px;
+		right: 0px;
+	}
+}
+
+/*desc*/
 @media (min-width: 768px) {
 	#menu-left {
+		position: absolute;
 		padding-top: 75px;
+		left: 90px;
+	}
+
+	.affix {
+		top: 50px;
+		left: 105px;
 	}
 }
 
@@ -17,14 +38,6 @@ body {
 	color: black;
 }
 
-#menu-left {
-	background: none;
-}
-
 .icon-bar {
 	background: red;
-}
-
-.affix {
-	top: 50px;
 }

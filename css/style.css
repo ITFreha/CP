@@ -1,3 +1,9 @@
+@media (min-width: 768px) {
+	#menu-left {
+		padding-top: 75px;
+	}
+}
+
 body {
 	padding-top: 50px;
 }
@@ -17,4 +23,8 @@ body {
 
 .icon-bar {
 	background: red;
+}
+
+.affix {
+	top: 50px;
 }

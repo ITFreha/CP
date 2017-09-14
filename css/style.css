@@ -1,0 +1,20 @@
+body {
+	padding-top: 50px;
+}
+
+#navbarTop {
+	background: #B1BEFF;
+	opacity: 0.7;
+}
+
+.navbar-brand {
+	color: black;
+}
+
+#menu-left {
+	background: none;
+}
+
+.icon-bar {
+	background: red;
+}

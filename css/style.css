@@ -1,27 +1,20 @@
-/*mob*/
-@media (min-width: 0px){
-	#menu-left {
-		position: fixed;
-		top: 50px;
-		right: -15px;
-	}
-	.affix {
-		top: 50px;
-		right: 0px;
-	}
+#menu-left {
+	position: fixed;
+	width: 15%;
 }
 
-/*desc*/
-@media (min-width: 768px) {
+@media (max-width: 767){
 	#menu-left {
-		position: absolute;
-		padding-top: 75px;
-		left: 90px;
+		min-width: 200px; 
+		z-index: 1;
+		background: red;
+		opacity: 0.7;
+		right: 10px;
+		padding: 3px 2px;
 	}
-
-	.affix {
-		top: 50px;
-		left: 105px;
+	.offset_a {
+		color: black;
+		font-size: 15px;
 	}
 }
 
@@ -36,8 +29,13 @@ body {
 
 .navbar-brand {
 	color: black;
+
 }
 
 .icon-bar {
 	background: red;
+}
+
+.offset_a {
+	padding-left: 20% !important;
 }

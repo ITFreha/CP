@@ -1,3 +1,23 @@
+#menu-left {
+	position: fixed;
+	width: 15%;
+}
+
+@media (max-width: 767){
+	#menu-left {
+		min-width: 200px; 
+		z-index: 1;
+		background: red;
+		opacity: 0.7;
+		right: 10px;
+		padding: 3px 2px;
+	}
+	.offset_a {
+		color: black;
+		font-size: 15px;
+	}
+}
+
 body {
 	padding-top: 50px;
 }
@@ -9,12 +29,13 @@ body {
 
 .navbar-brand {
 	color: black;
-}
 
-#menu-left {
-	background: none;
 }
 
 .icon-bar {
 	background: red;
+}
+
+.offset_a {
+	padding-left: 20% !important;
 }

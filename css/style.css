@@ -3,10 +3,10 @@
 	width: 15%;
 }
 
-@media (max-width: 767){
+@media (max-width: 767px){
 	#menu-left {
-		min-width: 200px; 
-		z-index: 1;
+		min-width: 200px;
+		position: fixed;
 		background: red;
 		opacity: 0.7;
 		right: 10px;
@@ -29,7 +29,6 @@ body {
 
 .navbar-brand {
 	color: black;
-
 }
 
 .icon-bar {
@@ -38,4 +37,10 @@ body {
 
 .offset_a {
 	padding-left: 20% !important;
+}
+
+.content {
+	position: relative;
+	z-index: -1;
+	background: #FCEDEF
 }

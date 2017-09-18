@@ -8,10 +8,28 @@ a:hover {
 	display: none;
 }
 
+body {
+	padding-top: 50px;
+}
+
+#menu-left {
+	position: fixed;
+	width: 15%;
+	top: 53px;
+}
+
+.info-menu li a {
+	color: rgba(0, 0, 0, 0.7);
+}
+
 @media (max-width: 767px) {
+	body {
+		padding-top: 79px;
+	}
 	.mob-menu {
 		display: block;
 		position: fixed;
+		top: 50px;
 		opacity: 0.95;
 		background: #f9f9f9;
 		width: 100%;
@@ -40,35 +58,24 @@ a:hover {
 		font: 18px/30px "Raleway", sans-serif;
 		color: #aae;
 	}
-}
-
-#menu-left {
-	position: fixed;
-	width: 15%;
-	top: 53px;
-}
-
-@media (max-width: 767px){
 	#menu-left {
-		min-width: 200px;
-		background: red;
-		opacity: 0.7;
-		right: 10px;
-		padding: 3px 2px;
+		display: none;
 	}
-	.offset_a {
-		color: black;
-		font-size: 15px;
+	.info-menu {
+		position: fixed;
+		right: 30px;
+		top: 80px;
+		padding: 3px;
+		background: rgba(177, 190, 255, 0.95);
 	}
-}
-
-body {
-	padding-top: 50px;
+	.info-menu li a {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
 }
 
 #navbarTop {
-	background: #B1BEFF;
-	opacity: 0.7;
+	background: rgba(177, 190, 255, 0.7);
 }
 
 .navbar-brand {

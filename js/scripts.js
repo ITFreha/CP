@@ -14,4 +14,4 @@ function changeMenu() {
 	}
 }
 
-window.addEventListener("orientationchange", changeMenu, false);
+window.addEventListener("resize", changeMenu, false);

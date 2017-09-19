@@ -4,6 +4,11 @@ a:hover {
 	text-decoration: none;
 }
 
+#navbarTop div ul li a span {
+	font-size: 15px;
+	margin-right: 3px;
+}
+
 .mob-menu {
 	display: none;
 }

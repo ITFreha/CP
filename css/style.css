@@ -4,12 +4,6 @@ a:hover {
 	text-decoration: none;
 }
 
-#menu li img {
-	width: 18px;
-	height: 18px;
-	margin-right: 3px;
-}
-
 #navbarTop div ul li a span {
 	font-size: 15px;
 	margin-right: 3px;
@@ -19,14 +13,63 @@ body {
 	padding-top: 50px;
 }
 
+#menu li img {
+	width: 18px;
+	height: 18px;
+	margin-right: 3px;
+}
+
 .menu-left {
 	position: fixed;
-	width: 15%;
-	top: 53px;
+	border: 5px solid #f1f1f1;
+	background: #faf5f7;
+	margin-left: 2%;
+	margin-top: 5px;
+	width: 21%;
 }
-.menu-left li a {
-	/padding-left: 20% !important;
-	min-width: 130px;
+
+.menu-left ul {
+	list-style: none;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.menu-left li {
+	border-bottom: 1px solid #eaeaea;
+	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-left: 10%;
+	/background: #99ff99;
+}
+
+.menu-left li:last-child {
+	border-bottom: none;
+	padding-bottom: 0px;
+}
+
+.menu-left a {
+	display: block;
+	transition: all 0.3s ease-out;
+	color: #616a6b;
+	font-size: 16px;
+}
+.menu-left a:hover {
+	font-size: 22px;
+	color: #67a5cd;
+	padding: 7px 0px 7px 10%;
+	background: #eaeaea;
+	border-radius: 3px;
+}
+@media (max-width: 991px){
+	.menu-left a:hover {
+		padding: 7px 0px 7px 12px;
+		font-size: 17px;
+	}
+	.menu-left {
+		margin-left: 1%;
+		margin-top: 5px;
+		width: 23%;
+	}
 }
 
 .info-menu li a {

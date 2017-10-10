@@ -14,7 +14,7 @@ function changeMenu() {
 			//vertical
 			$("#menu").css('display', 'block');
 			$("#navbarTop").css('display', 'block');
-			$('body').css('padding-top', '50px');
+			$('body').css('padding-top', '79px');
 		}
 	} else {
 		//pc

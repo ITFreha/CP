@@ -1,5 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
 
+body {
+	background: #fbfaff;
+}
+
+.img-responsive {
+	min-width: 100%;
+}
+
+.devider {
+	text-align: center;
+	border-top: 1px solid #d3cdf7;
+	margin-bottom: 20px;
+}
+
+blockquote {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
 a:hover {
 	text-decoration: none;
 }
@@ -39,7 +58,6 @@ body {
 	padding-bottom: 10px;
 	padding-top: 15px;
 	padding-left: 10%;
-	/background: #99ff99;
 }
 
 .menu-left li:last-child {
@@ -140,5 +158,5 @@ body {
 .content {
 	position: relative;
 	z-index: -1;
-	background: #FCEDEF
+	background: #fcf7f7;
 }

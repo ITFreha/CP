@@ -4,7 +4,8 @@ function changeMenu() {
 		$("#menu").removeClass('menu-left');
 		$("#menu").attr('class', 'mob-menu');
 
-		if (window.innerWidth > window.innerHeight) {
+		//if (window.innerWidth > window.innerHeight) {
+		if (window.matchMedia("(orientation: landscape").matches) {
 			//horizontal
 			$('#menu').css('display', 'none');
 			$('#navbarTop').css('display', 'none');
@@ -22,39 +23,8 @@ function changeMenu() {
 
 		$("#menu").css('display', 'block');
 		$("#navbarTop").css('display', 'block');
+		$('body').css('padding-top', '50px');
 	}
 }
 
 window.addEventListener("resize", changeMenu, false);
-
-/*function changeMenu() {
-	if (window.matchMedia("(max-width: 767px)").matches) {
-		//mob
-		$("#menu").removeClass('menu-left');
-
-		$("#menu").attr('class', 'mob-menu');
-
-		if ((x = window.innerWidth) > (y = window.innerHeight)) {
-			$('#menu').css('display', 'none');
-			$('#navbarTop').css('display', 'none');
-			$('body').css('padding-top', '0px');
-
-			$('#test').replaceWith(x + ' ' + y);
-		} else {
-			$("#menu").css('display', 'block');
-			$("#navbarTop").css('display', 'block');
-			$('body').css('padding-top', '50px');
-
-			$('#test').replaceWith(x + ' ' + y);
-		}
-	} else {
-		//pc
-		$("#menu").removeClass('mob-menu');
-
-		$("#menu").attr('class', 'menu-left');
-
-		$('#test').replaceWith(window.innerWidth + ' ' + window.innerHeight);
-	}
-}
-
-window.addEventListener("resize", changeMenu, false);*/

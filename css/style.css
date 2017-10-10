@@ -2,6 +2,7 @@
 
 body {
 	background: #fbfaff;
+	padding-top: 50px;
 }
 
 .img-responsive {
@@ -26,10 +27,6 @@ a:hover {
 #navbarTop div ul li a span {
 	font-size: 15px;
 	margin-right: 3px;
-}
-
-body {
-	padding-top: 50px;
 }
 
 #menu li img {

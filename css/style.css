@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+/*@import url(https://fonts.googleapis.com/css?family=Raleway:300);*/
 
 body {
 	background: #fbfaff;
@@ -128,7 +128,7 @@ a:hover {
 		overflow: auto;
 	}
 	.mob-menu ul li a {
-		font: 18px/30px "Raleway", sans-serif;
+		font: 18px/30px sans-serif;
 		color: #aae;
 	}
 	.info-menu {

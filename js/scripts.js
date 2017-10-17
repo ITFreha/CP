@@ -4,6 +4,11 @@ function changeMenu() {
 		$("#menu").removeClass('menu-left');
 		$("#menu").attr('class', 'mob-menu');
 
+		//rm modal
+		$("#modal-menu-left").removeAttr("class").removeAttr("style");
+		$("#modal-menu-left div").removeAttr("class");
+		$("#modal-menu-left div div").removeAttr("class");
+
 		//if (window.innerWidth > window.innerHeight) {
 		if (window.matchMedia("(orientation: landscape").matches) {
 			//horizontal
@@ -14,12 +19,16 @@ function changeMenu() {
 			//vertical
 			$("#menu").css('display', 'block');
 			$("#navbarTop").css('display', 'block');
-			$('body').css('padding-top', '79px');
+			$('body').removeAttr("css");
 		}
 	} else {
 		//pc
 		$("#menu").removeClass('mob-menu');
 		$("#menu").attr('class', 'menu-left');
+		//modal
+		$("#modal-menu-left").attr('class', 'modal fade');
+		$("#modal-menu-left div").attr('class', 'modal-dialog');
+		$("#modal-menu-left div div").attr('class', 'modal-body');
 
 		$("#menu").css('display', 'block');
 		$("#navbarTop").css('display', 'block');

@@ -1,6 +1,190 @@
 /*@import url(https://fonts.googleapis.com/css?family=Raleway:300);*/
 
 body {
+	background: white;
+	1background: #E3E5EB;
+	padding-top: 50px;
+}
+
+blockquote {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+p {
+	text-align: justify;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.img-responsive {
+	min-width: 100%;
+}
+
+.devider {
+	text-align: center;
+	border-top: 1px solid #d3cdf7;
+	margin-bottom: 20px;
+}
+
+#navbarTop div ul li a span {
+	font-size: 15px;
+	margin-right: 3px;
+}
+.menu-left {
+}
+
+.menu-left ul {
+	list-style: none;
+	text-align: center;
+	padding: 0px;
+}
+
+.menu-left ul li {
+	min-height: 100px;
+	display: inline-block;
+	background: white;
+	padding-top: 25px;
+	margin-top: 10px;
+	width: 100%;
+
+	transition: all 0.2s ease-out;
+}
+
+.menu-left a {
+	color: #616a6b;
+	margin: 0px 30px;
+	font-size: 38px;
+
+	transition: all 0.3s ease-out;
+}
+
+.menu-left li img {
+	width: 40px;
+	height: 40px;
+	margin-right: 3px;
+	margin-bottom: 7px;
+}
+
+.menu-left ul li:hover {
+	background: #E3E5EB;
+	padding-top: 15px;
+	transform: scale(1.1);
+}
+
+.menu-left ul li:hover > a {
+	display: block;
+	color: #383A40;
+	font-size: 50px;
+}
+
+.modal-body {
+	padding: 0px;
+}
+
+.modal-dialog {
+	width: 55%;
+}
+
+/*@media (max-width: 991px){
+	.menu-left ul{
+		margin-left: 0%;
+		width: 100%;
+	}
+}*/
+
+.info-menu li a {
+	color: rgba(0, 0, 0, 0.7);
+}
+
+#navbarTop {
+	background: rgba(177, 190, 255, 0.7);
+	font-size: 16px;
+}
+
+.navbar-brand {
+	color: black;
+}
+
+.icon-bar {
+	background: red;
+}
+
+.content {
+	z-index: -1;
+	background: #FFFAFA;
+}
+
+@media (max-width: 767px) {
+	body {
+		padding-top: 79px;
+	}
+	#navbarTop {
+		background: rgba(177, 190, 255, 0.95);
+	}
+	#modal-caller {
+		display: none;
+	}
+	.mob-menu {
+		display: block;
+		position: fixed;
+		top: 50px;
+		opacity: 0.95;
+		background: #f9f9f9;
+		width: 100%;
+		height: 30px;
+		overflow: hidden;
+	}
+	.mob-menu ul {
+		height: 30px;
+		white-space: nowrap;
+		padding-left: 30px;
+		/*
+		-webkit-user-select: none;
+		/**/
+	} 
+	.mob-menu ul li {
+		display: inline-block;
+		text-align: center;
+		margin-right: 8%;
+	}
+	.mob-menu div {
+		width: 100%;
+		height: 60px;
+		overflow: auto;
+	}
+	.mob-menu ul li a {
+		font: 18px/30px sans-serif;
+		color: #aae;
+	}
+	.mob-menu ul li img {
+		display: inline-block;
+		width: 16px;
+		height: 16px;
+		margin-right: 3px;
+		margin-bottom: 3px;
+	}
+	.info-menu {
+		position: fixed;
+		right: 30px;
+		top: 80px;
+		padding: 3px;
+		background: rgba(177, 190, 255, 0.95);
+	}
+	.info-menu li a {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+
+
+/*@import url(https://fonts.googleapis.com/css?family=Raleway:300);*/
+
+/*
+body {
 	background: #fbfaff;
 	padding-top: 50px;
 }
@@ -116,6 +300,7 @@ a:hover {
 		/*
 		-webkit-user-select: none;
 		/**/
+		/*
 	} 
 	.mob-menu ul li {
 		display: inline-block;
@@ -161,3 +346,4 @@ a:hover {
 	z-index: -1;
 	background: #fcf7f7;
 }
+*/

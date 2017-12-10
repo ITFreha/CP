@@ -19,7 +19,7 @@ function changeMenu() {
 			//vertical
 			$("#menu").css('display', 'block');
 			$("#navbarTop").css('display', 'block');
-			$('body').removeAttr("css");
+			$('body').css('padding-top', '80px');
 		}
 	} else {
 		//pc

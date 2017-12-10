@@ -134,7 +134,7 @@ a:hover {
 
 .content {
 	background: #FFFAFA;
-	юz-index: -1;
+	1z-index: -1;
 }
 
 @media (max-width: 767px) {

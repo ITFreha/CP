@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="tabl.xsl"?>
+<tabl>
+
+<CONTACTS>
+	<NAME>E-mail: </NAME>
+	<VALUE>AlexeenkoRodion@yandex.by</VALUE>
+</CONTACTS>
+
+<CONTACTS>
+	<NAME>Телефон: </NAME>
+	<VALUE>+375 29 9825349</VALUE>
+</CONTACTS>
+
+<CONTACTS>
+	<NAME>Расположение: </NAME>
+	<VALUE>Беларусь, Минск</VALUE>
+</CONTACTS>
+
+<CONTACTS>
+	<NAME>Владелец: </NAME>
+	<VALUE>Алексеенко Родион Сергеевич</VALUE>
+</CONTACTS>
+
+<MTV>
+  <NAME>Kavinsky
+  </NAME>
+  <RUSSIAN>Кавински Ретро музыка
+  </RUSSIAN>
+  <YEAR>1995
+  </YEAR>
+  <SEASONS>2000
+  </SEASONS>
+  <STATUS>Продолжается
+  </STATUS>
+</MTV>
+<MTV>
+  <NAME>LO-FI
+  </NAME>
+  <RUSSIAN>ЛОФИ
+  </RUSSIAN>
+  <YEAR>2015
+  </YEAR>
+  <SEASONS>1000
+  </SEASONS>
+  <STATUS>Продолжается
+  </STATUS>
+</MTV>
+<MTV>
+  <NAME>TUMBNAIL
+  </NAME>
+  <RUSSIAN>СТАМБ НЭЙЛ
+  </RUSSIAN>
+  <YEAR>2012
+  </YEAR>
+  <SEASONS>5000
+  </SEASONS>
+  <STATUS>Продолжается
+  </STATUS>
+</MTV>
+<MTV>
+  <NAME>FLOW FLAW FLAWA
+  </NAME>
+  <RUSSIAN>Флоу Флау Флэйва
+  </RUSSIAN>
+  <YEAR>2016
+  </YEAR>
+  <SEASONS>3000
+  </SEASONS>
+  <STATUS>Продолжается
+  </STATUS>
+</MTV>
+</tabl>
